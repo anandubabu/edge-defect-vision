@@ -1,0 +1,9 @@
+.venv/
+data/
+models/
+mlruns/
+mlflow.db
+*.pth
+*.onnx
+__pycache__/
+build/

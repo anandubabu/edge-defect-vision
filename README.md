@@ -21,3 +21,5 @@ Split 70 / 15 / 15 (train / val / test), stratified, fixed seed 42.
 ## How to run
     python train/split.py
     python train/show_samples.py
+    i
+    
