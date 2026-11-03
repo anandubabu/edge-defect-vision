@@ -24,7 +24,7 @@ Split 70 / 15 / 15 (train / val / test), stratified, fixed seed 42.
 
 | Learning rate | Best val accuracy | Notes |
 |---|---|---|
-| 0.003 | [fill in] | [e.g. unstable] |
+| 0.003 | .96 | not the best |
 | 0.001 | 1.000 | dipped to 0.967 at epoch 8 |
 | 0.0003 | 1.000 | stable at 1.000 from epoch 7 — **chosen** |
 
