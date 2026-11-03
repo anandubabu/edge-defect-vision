@@ -21,5 +21,17 @@ Split 70 / 15 / 15 (train / val / test), stratified, fixed seed 42.
 ## How to run
     python train/split.py
     python train/show_samples.py
-    i
+    
+## Training (A2)
+- Model: MobileNetV3-Small, pretrained on ImageNet, last layer replaced with 6 outputs (transfer learning)
+- Optimizer: Adam, batch size 32, 10 epochs, CPU only (Surface Pro, i5-7300U)
+- Compared 3 learning rates in MLflow:
+
+| Learning rate | Best val accuracy | Notes |
+|---|---|---|
+| 0.003 | [fill in] | [e.g. unstable] |
+| 0.001 | 1.000 | dipped to 0.967 at epoch 8 |
+| 0.0003 | 1.000 | stable at 1.000 from epoch 7 — **chosen** |
+
+Validation set: 270 images. Final test-set score follows in A3.   
     
