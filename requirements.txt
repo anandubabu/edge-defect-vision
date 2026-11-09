@@ -1,0 +1,10 @@
+pandas
+pillow
+scikit-learn
+matplotlib
+onnx
+onnxruntime
+mlflow
+openvino
+nncf
+pytest
